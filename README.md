@@ -1,4 +1,4 @@
-# Random pubmed
+# Random PubMed
 
 Get a random NCBI PubMed article.
 
