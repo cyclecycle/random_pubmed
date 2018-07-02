@@ -18,10 +18,10 @@ from random_pubmed import random_pubmed
 
 rand_art = random_pubmed.RandomArticle()
 rand_art.email = 'a.n.other@example.com'  # Tell NCBI who you are
-article = rand_art.get()  # Python dict of parsed medline format
+article = rand_art.get()  # Python dict of parsed article
 
 ```
 
 ## Requirements
 
-- Biopython, for querying NCBI's API
+- Biopython, for querying NCBI's API and parsing results
